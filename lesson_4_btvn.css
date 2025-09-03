@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  margin: 0 80px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 24px 0px;
+}
+
+.logo {
+  text-transform: uppercase;
+}
+
+.logo-1 {
+  font-weight: 900;
+  font-size: 38px;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.logo-2 {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.9);
+  display: block;
+  letter-spacing: 2px;
+}
+
+.contact {
+  display: flex;
+}
+
+.email-box {
+  padding: 0px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.contact-icon {
+  color: #fd5f00;
+  font-size: 20px;
+}
+
+.email-title {
+  margin-bottom: 8px;
+  font-weight: 700;
+  color: #000;
+}
+
+.email-value {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.apply-btn {
+  border: 1px solid #fd5f00;
+  background: #fd5f00;
+  color: #fff;
+  padding: 12px 16px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0d1128;
+  padding: 16px 24px;
+}
+
+.menu-category {
+  display: flex;
+  gap: 48px;
+}
+
+.menu-content {
+  color: #fff;
+  font-size: 14px;
+}
+
+.search-box {
+  position: relative;
+}
+
+.search-input {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 32px;
+  padding: 16px 16px;
+  background-color: #0d1128;
+  width: 240px;
+  min-width: 120px;
+}
+
+input.search-input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+}
+.search-icon {
+  color: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  font-size: 16px;
+}
+
+.banner {
+  background-image: url("https://framerusercontent.com/images/nuD7dNm3KkDpmn92csuDSUhEHAk.png");
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-content: center;
+}
+
+.banner-content {
+  width: 50%;
+  margin-left: 48px;
+  padding-left: 32px;
+}
+
+.banner-content-1 {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.banner-content-2 {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.btn-contact-us {
+  padding: 16px 24px;
+  background-color: #fd5f00;
+  border: 0px;
+  border-radius: 24px;
+  color: #fff;
+  font-size: 16px;
+}
