@@ -15,7 +15,6 @@ a {
 .info {
   display: flex;
   justify-content: space-between;
-
   padding: 24px 0px;
 }
 
@@ -67,6 +66,7 @@ a {
   background: #fd5f00;
   color: #fff;
   padding: 12px 16px;
+  font-size: 16px;
 }
 
 .menu {
@@ -113,18 +113,30 @@ input.search-input::placeholder {
 }
 
 .banner {
-  background-image: url("https://framerusercontent.com/images/nuD7dNm3KkDpmn92csuDSUhEHAk.png");
+  background-image: url("https://preview.colorlib.com/theme/fox/images/bg_2.jpg");
   width: 100%;
   height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
-  align-content: center;
+  position: relative;
+}
+
+.layer {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
+  opacity: 0.5;
 }
 
 .banner-content {
+  position: absolute;
+  left: 0px;
+  top: 0px;
   width: 50%;
   margin-left: 48px;
   padding-left: 32px;
+  height: 100%;
+  align-content: center;
 }
 
 .banner-content-1 {
@@ -157,14 +169,101 @@ input.search-input::placeholder {
 .benefit-1 {
   text-align: center;
   background-color: #fd5f00;
+  padding: 48px 24px;
 }
 
 .benefit-2 {
   text-align: center;
   background-color: #0d1128;
+  padding: 48px 24px;
 }
 
 .benefit-icon {
   font-size: 50px;
   color: #fff;
+  margin-bottom: 24px;
+}
+
+.benefit-title {
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.benefit-text {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.offer {
+  display: flex;
+  padding: 0px 16px;
+  align-items: center;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 48px;
+}
+
+.offer-content {
+  flex: 1 1 60%;
+}
+
+.offer-summary-title {
+  margin-bottom: 32px;
+}
+
+.offer-summary-text {
+  margin-bottom: 32px;
+}
+
+.offer-img-box {
+  flex: 1 1 50%;
+}
+
+.offer-img {
+  max-width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.offer-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+}
+
+.offer-list-item {
+  display: flex;
+  flex: 1 1 45%;
+  gap: 16px;
+}
+
+.offer-list-logo-box {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  background-color: #fd5f00;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.offer-list-logo-icon {
+  font-size: 30px;
+  color: #fff;
+}
+
+.offer-list-content {
+  flex: 1 1 40%;
+}
+
+.offer-item-title {
+  margin-bottom: 16px;
+}
+
+.offer-item-text {
+  color: #666;
+  font-size: 16px;
 }
